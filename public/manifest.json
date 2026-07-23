@@ -1,0 +1,26 @@
+{
+    "name": "বইঘর - বাংলা বইয়ের সেরা ঠিকানা",
+    "short_name": "বইঘর",
+    "description": "বাংলা ইসলামিক, উপন্যাস, কবিতা সহ সব ধরনের PDF বই বিনামূল্যে ডাউনলোড করুন",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1e1b4b",
+    "theme_color": "#6366f1",
+    "orientation": "portrait-primary",
+    "icons": [
+        { "src": "/images/icon-72.png", "sizes": "72x72", "type": "image/png" },
+        { "src": "/images/icon-96.png", "sizes": "96x96", "type": "image/png" },
+        { "src": "/images/icon-128.png", "sizes": "128x128", "type": "image/png" },
+        { "src": "/images/icon-144.png", "sizes": "144x144", "type": "image/png" },
+        { "src": "/images/icon-152.png", "sizes": "152x152", "type": "image/png" },
+        { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+        { "src": "/images/icon-384.png", "sizes": "384x384", "type": "image/png" },
+        { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    ],
+    "categories": ["books", "education", "entertainment"],
+    "lang": "bn",
+    "scope": "/",
+    "screenshots": [
+        { "src": "/images/screenshot1.png", "sizes": "375x812", "type": "image/png" }
+    ]
+}
