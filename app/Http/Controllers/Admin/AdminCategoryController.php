@@ -13,7 +13,8 @@ class AdminCategoryController extends Controller
     public function index()
     {
         $categories = Category::withCount('books')->orderBy('sort_order')->paginate(20);
-        return view('admin.categories.index', compact('categories'));
+        $nextOrder = (Category::max('sort_order') ?? 0) + 1;
+        return view('admin.categories.index', compact('categories', 'nextOrder'));
     }
 
     public function create()
